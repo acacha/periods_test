@@ -20,7 +20,7 @@ Route::group(['middleware' => 'auth'], function () {
         $data = [
             'database_connection' => config('database.default'),
             'session_variable'    => config('periods.session_variable'),
-//            'current_period'      => Session::get(config('periods.session_variable'))
+            'current_period'      => Session::get(config('periods.session_variable'))
         ];
         return view('periods', $data);
     });

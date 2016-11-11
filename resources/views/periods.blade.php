@@ -13,8 +13,11 @@
                     <div class="panel-heading">Periods info</div>
 
                     <div class="panel-body">
-                        CURRENT DATABASE_CONNECTION: {{$database_connection}} |
-                        SESSION_VARIABLE: {{$session_variable}} |
+                        <ul>
+                            <li>CURRENT DATABASE_CONNECTION: {{$database_connection}}</li>
+                            <li>SESSION_VARIABLE: {{$session_variable}}</li>
+                            <li>CURRENT PERIOD: {{$current_period}} </li>
+                        </ul>
                     </div>
                 </div>
             </div>

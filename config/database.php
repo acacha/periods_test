@@ -52,6 +52,18 @@ return [
             'prefix' => '',
         ],
 
+        'sqlite_1516' => [
+            'driver' => 'sqlite',
+            'database' => env('DB_DATABASE', database_path('database1516.sqlite')),
+            'prefix' => '',
+        ],
+
+        'sqlite_1415' => [
+            'driver' => 'sqlite',
+            'database' => env('DB_DATABASE', database_path('database1415.sqlite')),
+            'prefix' => '',
+        ],
+
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
